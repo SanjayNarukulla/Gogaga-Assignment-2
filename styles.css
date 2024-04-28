@@ -1,0 +1,311 @@
+/* Reset default styles and set font */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* Navigation links */
+.nav-links {
+    margin-left: auto;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Background container */
+.background-container {
+    background-image: url("IMage/pexels-souvenirpixels-1571442.jpg");
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+/* Logo image */
+.image {
+    margin-top: 0px;
+}
+.us-flag{
+    width:20px;
+}
+
+/* Common styles for top boxes */
+.top-boxes {
+    border-style: dashed;
+    border-color: #274472;
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Specific styles for Help */
+.top-boxes.help {
+    background-color: transparent;
+    color: darkblue;
+    font-weight: bold;
+}
+
+/* Specific styles for USA Flag */
+.top-boxes.usa-flag {
+    background-color: transparent;
+}
+
+/* Specific styles for List My Cabs */
+.top-boxes.list-my-cabs {
+    background-color: transparent;
+    width: 150px;
+    color: #274472;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Membership dropdown button */
+.membership-drop {
+    background-color: #274472;
+    color:  #ffffff;
+    border: 2px solid #274472;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 210px;
+    font-weight: bold;
+}
+
+/* My Bookings dropdown button */
+.my-bookings-drop {
+    background-color: transparent;
+    color:  #274472;
+    border: 2px dashed  #274472;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 210px;
+    height: 50px;
+    font-weight: bold;
+    
+}
+
+/* Options dropdown button */
+.options-drop {
+    background-color: transparent;
+    color:  #274472;
+    border: 2px dashed  #274472;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 210px;
+    height: 50px;
+    font-weight: bold;
+}
+
+/* Dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show dropdown content on hover */
+.dropdown-select:hover .dropdown-content {
+    display: block;
+}
+.heading-section{
+    text-align: center;
+}
+.heading-1{
+    color:#000075;
+    font-weight: bolder;
+}
+.heading-2{
+    color:#000075;
+    font-weight: normal;
+}
+.total-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 40px;
+    min-width:200px;
+    padding:10px;
+    position: static;
+}
+.inner-container{
+    display: flex;
+    background-color: #c5e7f4;
+    justify-content: center;
+    border-radius: 40px;
+    align-items: center;
+    margin-right: 5px;
+}
+.text{
+    color:rgb(32, 32, 32);
+    width: 120px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+.top-card-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #274472;
+    padding: 20px;
+    border-radius: 20px;
+   
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card-item{
+    border:1px solid #ffffff;
+    margin-right: 10px;
+    border-radius: 20px;
+    padding:10px;
+    width:200px;
+    height:50px;
+}
+.card-item-text{
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.options-drop-middle-cont{
+    background-color: transparent;
+    color:white;
+    border:1px solid #ffffff;
+    margin-right: 10px;
+    border-radius: 20px;
+    padding:10px;
+    width:200px;
+    height:70px;
+}
+.magnifying-glass{
+    background-color: white;
+    font-size: 24px;
+    padding:12px;
+    border-radius: 8px;
+}
+.star-rating{
+    font-size: 12px;
+    color:#ffffff;
+}
+.rating{
+    background-color: #c5e7f4;
+    border-radius: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+    color: black;
+}
+.info{
+    background-color: aqua;
+    color:white;
+    border-radius: 100px;
+    padding:2px;
+    font-size: 8px;
+
+
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+}
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px; 
+
+}
+.footer-section-google{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px; 
+}
+.download{
+    font-size: 12px;
+    margin-bottom: 1px;
+    margin-left: 0px;
+}
+.google{
+    font-size: 16px;
+    margin-top: 0px;
+}
+.hr {
+   
+    width: 100%;
+    border: 0;
+    height: 1px;
+    background-color: #ccc; /* Change color as needed */
+    margin: 20px 0; /* Adjust margin as needed */
+  }
+
+.bottom-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+.bottom-section-inside{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+  }
+.bottom-heading{
+    font-size: 16px;
+    color: #0e2851;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-left: 3px;
+    
+  }
+.bottom-desc{
+    font-size: 12px;
+    color: #274472;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 3px;
+  }
